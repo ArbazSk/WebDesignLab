@@ -1,0 +1,30 @@
+codept@aiktc08 ~ $ cd Documents/
+codept@aiktc08 ~/Documents $ cd Arbaz16co54/WebDev/
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git init 
+Initialized empty Git repository in /home/codept/Documents/Arbaz16co54/WebDev/.git/
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git remote add https://github.com/ArbazSk/WebDesignLab.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git remote add https://github.com/ArbazSk/WebDesignLab.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git remote add origin https://github.com/ArbazSk/WebDesignLab.git
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ 
