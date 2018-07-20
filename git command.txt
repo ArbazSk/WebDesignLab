@@ -1,0 +1,74 @@
+codept@aiktc08 ~ $ cd Documents/
+codept@aiktc08 ~/Documents $ cd Arbaz16co54/WebDev/
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git init 
+Reinitialized existing Git repository in /home/codept/Documents/Arbaz16co54/WebDev/.git/
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git remote add origin https://github.com/ArbazSk/WebDesignLab.git
+fatal: remote origin already exists.
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	blog.html
+	contact.html
+	gallery.html
+	git.text
+	image/
+	index.html
+	resume.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git add .
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   blog.html
+	new file:   contact.html
+	new file:   gallery.html
+	new file:   git.text
+	new file:   image/Webdev.jpeg
+	new file:   image/galaxy.jpeg
+	new file:   image/milky.jpeg
+	new file:   image/mount.jpeg
+	new file:   image/road.jpeg
+	new file:   image/view.jpeg
+	new file:   index.html
+	new file:   resume.html
+
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git commit -m "Experiment-1: My Website Structure"
+[master (root-commit) 9f4b092] Experiment-1: My Website Structure
+ 12 files changed, 197 insertions(+)
+ create mode 100644 blog.html
+ create mode 100644 contact.html
+ create mode 100644 gallery.html
+ create mode 100644 git.text
+ create mode 100644 image/Webdev.jpeg
+ create mode 100644 image/galaxy.jpeg
+ create mode 100644 image/milky.jpeg
+ create mode 100644 image/mount.jpeg
+ create mode 100644 image/road.jpeg
+ create mode 100644 image/view.jpeg
+ create mode 100644 index.html
+ create mode 100644 resume.html
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git push origin master
+Username for 'https://github.com': ArbazSk
+Password for 'https://ArbazSk@github.com': 
+Counting objects: 14, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (14/14), 756.85 KiB | 0 bytes/s, done.
+Total 14 (delta 0), reused 0 (delta 0)
+To https://github.com/ArbazSk/WebDesignLab.git
+ * [new branch]      master -> master
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ git status
+On branch master
+nothing to commit, working directory clean
+codept@aiktc08 ~/Documents/Arbaz16co54/WebDev $ 
