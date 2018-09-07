@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Muhammed Salman: A web Developer</title>
-            <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>ArbazShaikh: create user</title>
+            <link rel="stylesheet" type="text/css" href="CSS/style.css" />
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
@@ -14,9 +14,9 @@
 
                 <li><a href="resume.html" title="Know More About Me">Resume</a></li>
                 
-                <li><a href="blog.html" title="My Blog">Blog</a></li>
+                <li><a href="blog.html" title="My Blog">My Blog</a></li>
 
-                <li><a href="gallery.html" title="My Photos">Gallery</a></li>
+                <li><a href="gallery.html" title="My Photos">My Gallery</a></li>
 
                 <li><a href="contact.html" title="Reach Me">Contact</a></li>
             </ul>
@@ -73,6 +73,7 @@
             &copy;2018 All rights reserved - Muhammed Salman Shamsi 
         </div>
     </footer>
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
     <script src="js/misc.js" type="text/javascript"></script>
 </body>
 </html>
