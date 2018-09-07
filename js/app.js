@@ -30,15 +30,15 @@ $(function(){
 
 	});
 
-	// $('#semail').on('blur',function(){
-	// 	if(/((\w*.?_?-?\d*\w+)@(\w*-?.?\d*\w+).(\w*-?))/.test(this.value)){
-	// 		alert("Invalid Email.");
-	// 		this.value="";
-	// 		$(this).focus();
-	// 	}
+	$('#semail').on('blur',function(){
+		if(/((\w*.?_?-?\d*\w+)@(\w*-?.?\d*\w+).(\w*-?))/.test(this.value)){
+			alert("Invalid Email.");
+			this.value="";
+			$(this).focus();
+		}
 		
 
 
-	// });
+	});
 
 });

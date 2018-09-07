@@ -47,11 +47,11 @@ function submitForm(e){
 
 }
 
-var email = document.getElementById('user-emial');
-email.addEventListener('blur',checkSubject,false);
+var email = document.getElementById('user-email');
+email.addEventListener('blur',checkEmail,false);
 
 var subject = document.getElementById('subject');
 subject.addEventListener('blur',checkSubject,false);
 
 var submit = document.getElementById('submit-btn');
-submit.addEventListener('click',checkSubject,false);
+submit.addEventListener('click',submitForm,false);
