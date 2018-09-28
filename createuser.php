@@ -70,7 +70,7 @@
 </div>
     <footer>
         <div>
-            &copy;2018 All rights reserved - Muhammed Salman Shamsi 
+            &copy;2018 All rights reserved - Shaikh Arbaz
         </div>
     </footer>
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>

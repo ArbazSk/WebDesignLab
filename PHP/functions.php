@@ -23,7 +23,7 @@ function queryMysql($query){
 		'.mysqli_error($link).'</div>';
 		die();
 	}
-	mysqli_close();
+	mysqli_close($link);
 	return $result;
 }
 
