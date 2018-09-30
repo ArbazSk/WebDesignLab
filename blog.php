@@ -5,7 +5,7 @@ session_start();
 <html>
     <head>
         <title>My Blog Page</title>
-        
+
     </head>
     <body>
         <?php
@@ -20,10 +20,10 @@ session_start();
                 . "<b>College :</b> $_SESSION[college]<br>"
                 . "<b>Class : </b> $_SESSION[class]<br>"
                 . "<b>Batch : </b> $_SESSION[batch]<br>";
-    
+
                 echo "<br>"
                 . "<form method='post' action='blog.php'>"
-                    . "<input type='hidden' name='logout' value='yes'/>" 
+                    . "<input type='hidden' name='logout' value='yes'/>"
                     . "<input type='submit' value='Logout'/>"
                 . "</form>";
             }

@@ -13,7 +13,7 @@
                 <li><a href="index.html" title="About Me">Home</a></li>
 
                 <li><a href="resume.html" title="Know More About Me">Resume</a></li>
-                
+
                 <li><a href="blog.html" title="My Blog">My Blog</a></li>
 
                 <li><a href="gallery.html" title="My Photos">My Gallery</a></li>
@@ -23,14 +23,14 @@
         </nav>
     </header>
 <body>
-<?php 
-        if($_POST) 
+<?php
+        if($_POST)
             insertUser();
-            
-    
+
+
 ?>
 <div class="container">
-    
+
     <form role="form" method="post" action="createuser.php">
         <h1> Create Account</h1>
             <fieldset class="form-group">
@@ -60,17 +60,18 @@
             </fieldset>
             <fieldset class="form-group">
                 <label for="cpass">Confirm Password</label>
-                <input class="form-control" type="password" id="cpass" placeholder="Repeat Password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" name="cpass" required><br><span id="cpasserr"></span>
+                <input class="form-control" type="password" id="cpass" placeholder="Repeat Password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" name="cpass" required><br>
+                <span id="cpasserr"></span>
             </fieldset>
-              
+
             <input type="hidden" name="usertype" id="usertype" value="1" required>
-              
+
             <input type="submit" class="btn btn-primary" value="Create Account">
     </form><br><br>
 </div>
     <footer>
         <div>
-            &copy;2018 All rights reserved - Muhammed Salman Shamsi 
+            &copy;2018 All rights reserved - Muhammed Salman Shamsi
         </div>
     </footer>
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>

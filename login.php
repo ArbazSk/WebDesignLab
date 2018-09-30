@@ -46,9 +46,9 @@
         <form method="post" action="login.php">
         <div id="login-box">
             <span>Log In</span>
-            <input type="text" name="username" id="username" 
+            <input type="text" name="username" id="username"
                    placeholder="Username" required="required"/>
-            <input type="password" name="pass" id="pass" 
+            <input type="password" name="pass" id="pass"
                    placeholder="Password" required="required"/>
             <input type="submit" value="Log In"/>
         </div>
