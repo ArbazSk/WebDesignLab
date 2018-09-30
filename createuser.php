@@ -71,7 +71,11 @@
 </div>
     <footer>
         <div>
+<<<<<<< HEAD
             &copy;2018 All rights reserved - Muhammed Salman Shamsi
+=======
+            &copy;2018 All rights reserved - Shaikh Arbaz
+>>>>>>> 67cfc10e45413d4143f1bc4dab526c2a4558514a
         </div>
     </footer>
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>

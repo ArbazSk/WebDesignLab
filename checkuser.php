@@ -8,7 +8,7 @@ if($_POST){
 
 		$user= strtolower($_POST['user']);
 
-		$query= "select * from Users where username='$user' ";
+		$query= "select * from users where username='$user' ";
 
 		$result= queryMysql($query);
 
@@ -18,7 +18,7 @@ if($_POST){
 		}
 		else
 		{
-			echo "false";
+			echo 'false';
 		}
 	}
 }
